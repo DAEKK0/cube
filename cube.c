@@ -123,9 +123,9 @@ int main() {
       putchar(k % width ? buffer[k] : 10);
     }
 
-    A += 0.05;
-    B += 0.05;
-    C += 0.01;
+    A += 0.04;
+    B += 0.04;
+    C += 0.005;
     usleep(8000 * 2);
   }
   return 0;
