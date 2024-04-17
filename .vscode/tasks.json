@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cmake",
+			"label": "CMake: Nouvelle regénération",
+			"command": "cleanRebuild",
+			"targets": [
+				"[N/A – Sélectionner un kit]"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"detail": "Tâche Nouvelle regénération de modèle CMake"
+		}
+	]
+}
